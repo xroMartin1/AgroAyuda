@@ -1,0 +1,14 @@
+{
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "destination": "/",
+      "source": "/:path*"
+    }
+  ],
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": ""
+}
